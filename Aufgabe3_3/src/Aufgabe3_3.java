@@ -27,10 +27,10 @@ public class Aufgabe3_3 {
 					
 					for (byte i = 0; i <= zahl.length()-1; i++) {
 
-						memory = (byte)(memory + (zahl.charAt(i) * (Math.pow(basis, i))));
+						memory = (byte)(memory + (Character.getNumericValue(zahl.charAt(i)) * (Math.pow(basis, i))));
 						System.out.println(zahl.charAt(i));
 					};
-					System.out.println((zahl.charAt(0) * (Math.pow(basis, 0))));
+					//System.out.println((Character.getNumericValue(zahl.charAt(0)) * (Math.pow(basis, 0))));
 					
 					for (byte i = (byte) (zahl.length() + 1); i > 0; i--) {
 
