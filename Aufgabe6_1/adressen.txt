@@ -1,0 +1,27 @@
+Name: Schmidt
+Vorname: Waldemar
+PLZ: 06842
+Ort: Dessau
+
+Name: Golf
+Vorname: Gerry
+PLZ: 08141
+Ort: Reinsdorf
+
+Name: Günter
+Vorname: Meister
+PLZ: 06843
+Ort: Dessau
+
+Name: Sabine
+Vorname: Zoche
+PLZ: 06849
+Ort: Dessau
+
+Name: Andreas
+Vorname: Münster
+PLZ: 06108
+Ort: Halle
+
+Name: Sandra
+Vorname: Wolf
