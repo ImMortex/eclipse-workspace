@@ -1,4 +1,4 @@
-import java.util.Date;
+
 
 public class Aufgabe7_4 {
 	public static void main(String[] args) {
@@ -43,7 +43,6 @@ public class Aufgabe7_4 {
 	}
 
 	public static char[] selectionSortCharacterAufsteigend(char[] array) {
-		
 		int pointer = array.length - 1;
 		int indexGroeﬂteZahl = 0;
 		int countSwap = 0;
