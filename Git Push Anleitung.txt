@@ -1,0 +1,7 @@
+git status			// Status anzeigen (rot= nicht hinzugefügt, grün= zu der stage hinzugefügt)
+
+git add <file>			// Datei der stage hinzufügen
+
+git commit -m '<message>' 	// committen mit Angabe einer Versionsnummer
+
+git push 			// Dateien der stage hochladen
