@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Aufgabe4_2c {
+	public static void main(String[] args, String benutzername, String passwort ) {
+		
+		benutzername = "name";
+		passwort = "pass";
+		
+		Scanner myScanner = new Scanner(System.in);
+		System.out.println("Benutzername:");
+		String benutzer = myScanner.next();
+		System.out.println("Passwort:");
+		String passw  = myScanner.next();
+		myScanner.close();
+
+
+		if (benutzer == benutzername && passw == passwort) {
+			System.out.println("Das war korrekt.");
+		} else if (benutzer == benutzername || passw == passwort)
+		{
+			System.out.println("Das war schon fast korrekt.");
+		} else
+			{System.out.println("Das war nicht korrekt.");}
+
+	}
+
+}

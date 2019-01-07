@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Aufgabe5_2 {
+	enum Monate {
+		Januar, Februar, März, April, Mai, Juni, Juli, August, Sepember, Oktober, November, Dezember
+	}
+
+	public static void main(String[] args) {
+		Scanner myScanner = new Scanner(System.in);
+		System.out.println("Eingabe Land:");
+		String land = myScanner.next();
+		System.out.println("Eingabe Monat:");
+		int monat = myScanner.nextInt();
+		myScanner.close();
+
+		if (!(monat >= 1 && monat <= 12)) {
+			monat = 1;
+		}
+		if (land == "Deutschland") {
+			System.out.println("Nicht vorhersehbar!");
+		} else if ((monat <= 3 && monat >= 1) || (monat >= 10 && monat <= 12)) {
+			System.out.println("Regenwetter");
+		} else {
+			System.out.println("Sonnenschein");
+		}
+		;
+
+	}
+
+}

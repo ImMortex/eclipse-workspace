@@ -1,0 +1,52 @@
+public class Übungen2_Aufg2_2 {
+	public static void main(String[] args) {
+		String binaerzahl = "";
+		String memory = "";
+		int laenge;
+		int dezimalzahl = -1;
+		int bitlaenge = 32 - 1; // Vorzeichenbit abgezogen
+		int betragDezimalzahl = Math.abs(dezimalzahl);
+
+		System.out.println("D:" + dezimalzahl + " Abs:" + betragDezimalzahl);
+		while (dezimalzahl != -0 && dezimalzahl != 0 && dezimalzahl >= -2147483648 && dezimalzahl <= 2147483647)
+
+		{
+			if (dezimalzahl > 0) {
+
+				memory = (dezimalzahl % 2) + memory; // Restdivision
+				dezimalzahl = dezimalzahl / 2; // Division
+
+				binaerzahl = "0"; // "0" als Vorzeichen Plus
+				laenge = bitlaenge - (memory.length() + 1);
+				for (int zaehler = 0; zaehler <= laenge; zaehler = zaehler + 1) {
+					binaerzahl = binaerzahl + "0"; // Ausfüllen fehlender Nullen
+				}
+				binaerzahl = binaerzahl + memory;
+
+			} else if (dezimalzahl < 0) {
+
+				memory = (dezimalzahl % 2) + memory;
+				dezimalzahl = dezimalzahl / 2;
+				binaerzahl = "1";
+				laenge = bitlaenge - (memory.length() + 1);
+				for (int zaehler = 0; zaehler <= laenge; zaehler = zaehler + 1) {
+					binaerzahl = binaerzahl + "0";
+				}
+				
+				binaerzahl = binaerzahl + memory;
+				System.out.println(memory);
+
+				;
+			}
+
+		}
+		if (betragDezimalzahl == 0 || betragDezimalzahl == -0) {
+			System.out.println("00000000000000000000000000000000");
+		} else if (dezimalzahl < -2147483648 || dezimalzahl > 2147483647) {
+			System.out.println("NaN");
+		} else {
+			System.out.println(" B:" + binaerzahl);
+		}
+		;
+	}
+}
