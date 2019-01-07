@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Übungen2Aufg2_4 {
+	public static void main(String[] args) {
+		Scanner myScanner = new Scanner(System.in);
+		long nanoseconds;
+		System.out.print("Eingabe: ");
+		nanoseconds = myScanner.nextLong();
+		long milliseconds = nanoseconds / 1000000;
+		long seconds = milliseconds / 1000;
+		long minutes = seconds / 60;
+		long hours = minutes / 60;
+		long days = hours / 24;
+		
+		System.out.print("Ausgabe: "+days + " " + hours + ":" + minutes + "." + milliseconds);
+	}
+}

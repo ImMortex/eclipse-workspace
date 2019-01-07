@@ -1,0 +1,14 @@
+
+public class ÜbungenAufg2_6 {
+	public static void main(String[] args) {
+		int eingabe1 = 2000;
+		int eingabe2 = 2018;
+
+		if (eingabe1 % 4 == 0 && eingabe1 % 400 == 0) {
+			System.out.println(eingabe1 + " ist ein Schaltjahr");
+		} else {
+			System.out.println(eingabe1 + " ist kein Schaltjahr");
+		}
+		;
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Aufgabe4_2 {
+	public static void main(String[] args) {
+		/*Scanner myScanner = new Scanner(System.in);
+		System.out.println("Eingabe der Seite a: ");
+		float seiteA = myScanner.nextFloat();
+		System.out.println("Eingabe der Seite b: ");
+		float seiteB = myScanner.nextFloat();
+		System.out.println("Eingabe der Seite c: ");
+		float seiteC = myScanner.nextFloat();
+		myScanner.close();*/
+		
+		System.out.println( 16 << 1);
+	}
+
+}

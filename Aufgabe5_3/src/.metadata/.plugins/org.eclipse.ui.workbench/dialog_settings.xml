@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="651" key="DIALOG_X_ORIGIN"/>
+		<item value="158" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="950" key="dialogHeight"/>
+		<item value="1161" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="1"/>
+		</list>
+		<list key="orderedElements">
+			<item value="search.in.help"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.actions"/>
+		</list>
+		<list key="textArray">
+			<item value="math"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
+		<item value="0" key="sort"/>
+		<item value="false" key="allPersp"/>
+		<list key="columns">
+			<item value="252"/>
+			<item value="504"/>
+		</list>
+		<list key="bounds">
+			<item value="561"/>
+			<item value="152"/>
+			<item value="798"/>
+			<item value="553"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+	</section>
+</section>

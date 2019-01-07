@@ -1,0 +1,50 @@
+
+public class Aufgabe4_6 {
+	enum Zustaende {
+		MONSTER, VERFUEG
+	}
+
+	public static void main(String[] args) {
+
+		Zustaende[][] spielfeld = {
+
+				{ Zustaende.MONSTER, Zustaende.VERFUEG, Zustaende.VERFUEG },
+				{ Zustaende.VERFUEG, Zustaende.VERFUEG, Zustaende.MONSTER },
+				{ Zustaende.VERFUEG, Zustaende.MONSTER, Zustaende.VERFUEG } };
+		boolean monsterImWeg = false;
+		for (int y = 0; y <= spielfeld[0].length - 1; y++) {
+			for (int x = 0; x <= spielfeld[0].length - 1; x++) {
+
+				System.out.println("x: " + x + " y: " + y);
+			
+
+				if (spielfeld[y][x] == Zustaende.MONSTER) {
+
+					for (int untereDiagonale = 1; x + untereDiagonale <= spielfeld[0].length - 1
+							&& y + untereDiagonale <= spielfeld[0].length - 1; untereDiagonale++) {
+						if (spielfeld[y + untereDiagonale][x + untereDiagonale] == Zustaende.MONSTER) {
+							monsterImWeg = true;
+						}
+
+					}
+					for (int obereDiagonale = 1; x + obereDiagonale <= spielfeld[0].length - 1
+							&& y - obereDiagonale <= spielfeld[0].length - 1; obereDiagonale++) {
+						if (y>=1 && spielfeld[y - obereDiagonale][x + obereDiagonale] == Zustaende.MONSTER) {
+							monsterImWeg = true;
+						}
+
+					}
+
+				}
+			}
+
+		}
+
+		if (monsterImWeg) {
+			System.out.println("Kein valides Spielfeld");
+		} else {
+			System.out.println("Valides Spielfeld");
+		}
+	}
+
+}
