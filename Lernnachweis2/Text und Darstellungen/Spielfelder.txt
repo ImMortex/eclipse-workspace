@@ -1,0 +1,49 @@
+Element[][] playgroundHopeItHelps = { //
+{ Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE,Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.WALL, Element.TREASURE, Element.DOOR, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.FREE,Element.WALL, Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE,Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.WALL, Element.FREE, Element.DOOR, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE,Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE, }, //
+{ Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.WALL, Element.FREE, Element.DOOR, Element.FREE,Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.WALL, Element.FREE, Element.DOOR, Element.FREE, }, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE,Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE, }, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.FREE, Element.DOOR, Element.FREE,Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.DOOR, Element.FREE, Element.WALL, Element.FREE, }, //
+{ Element.FREE, Element.PLAYER, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE,Element.WALL, Element.WALL, Element.WALL, Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.FREE, }, //
+{ Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, }, //
+		};
+
+Element[][] playgroundFortressOfTaketreasure = { //
+
+{ Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE}, //
+{ Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.WALL,Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.FREE}, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.WALL, Element.FREE}, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.WALL,Element.WALL, Element.WALL, Element.FREE, Element.WALL, Element.FREE}, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.FREE}, //
+{ Element.DOOR, Element.WALL, Element.DOOR, Element.WALL, Element.DOOR, Element.WALL, Element.WALL, Element.WALL,Element.DOOR, Element.WALL, Element.DOOR, Element.WALL, Element.DOOR}, //
+{ Element.PLAYER, Element.WALL, Element.FREE, Element.DOOR, Element.FREE, Element.WALL, Element.TREASURE, Element.DOOR,Element.FREE, Element.WALL, Element.FREE, Element.DOOR, Element.FREE}, //
+{ Element.DOOR, Element.WALL, Element.DOOR, Element.WALL, Element.DOOR, Element.WALL, Element.WALL, Element.WALL,Element.DOOR, Element.WALL, Element.DOOR, Element.WALL, Element.DOOR}, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.FREE}, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.WALL,Element.WALL, Element.WALL, Element.FREE, Element.WALL, Element.FREE}, //
+{ Element.FREE, Element.WALL, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.WALL, Element.FREE}, //
+{ Element.FREE, Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.WALL,Element.WALL, Element.WALL, Element.WALL, Element.WALL, Element.FREE}, //
+{ Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE,Element.FREE, Element.FREE, Element.FREE, Element.FREE, Element.FREE}, //
+};
+
+
+
+
+	
+				
+				
+				
+				
+				
+				
+				
